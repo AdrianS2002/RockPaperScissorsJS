@@ -1,0 +1,41 @@
+
+.Buttons{
+    line-height: 40px;
+    width: 170px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    background-color: rgba(27, 128, 211, 0.09);
+    border:none;
+}
+.Buttons:hover{
+    border: 3px solid #3d3dce;
+}
+#outer{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid #001e80;
+    border-radius: 25px;
+    box-shadow: 5px 10px 8px rgba(46, 132, 169, 0.89), 5px 10px 8px #1b4ed3;
+}
+#gameDiv{
+    width: 700px;
+    height: 350px;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgba(2, 255, 255, 0.3);
+}
+
+#player{
+    color: #8600fd;
+}
+#computer{
+    color: #ffcc00;
+}
